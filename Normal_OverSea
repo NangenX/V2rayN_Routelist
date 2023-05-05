@@ -1,12 +1,5 @@
 [
   {
-    "outboundTag": "direct",
-    "domain": [
-      "domain:example.com",
-      "domain:example2.com"
-    ]
-  },
-  {
     "type": "field",
     "outboundTag": "block",
     "domain": [
@@ -25,13 +18,6 @@
   },
   {
     "type": "field",
-    "outboundTag": "proxy",
-    "domain": [
-      "geosite:geolocation-!cn"
-    ]
-  },
-  {
-    "type": "field",
     "outboundTag": "direct",
     "ip": [
       "geoip:private",
@@ -39,6 +25,13 @@
     ],
     "domain": [
       "geosite:cn"
+    ]
+  },
+  {
+    "type": "field",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:linkedin"
     ]
   },
   {
