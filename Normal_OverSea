@@ -8,35 +8,15 @@
   },
   {
     "type": "field",
-    "outboundTag": "direct",
-    "domain": [
-      "geosite:private",
-      "geosite:apple@cn",
-      "geosite:google@cn",
-      "geosite:tld-cn"
-    ]
-  },
-  {
-    "type": "field",
-    "outboundTag": "direct",
-    "ip": [
-      "geoip:private",
-      "geoip:cn"
-    ],
-    "domain": [
-      "geosite:cn"
-    ]
-  },
-  {
-    "type": "field",
     "outboundTag": "proxy",
     "domain": [
-      "geosite:linkedin"
+      "geosite:linkedin",
+      "geosite:gfw"
     ]
   },
   {
-    "type": "field",
-    "port": "0-65535",
-    "outboundTag": "proxy"
-  }
+     "type": "field",
+     "network":"tcp,udp",
+     "outboundTag": "direct" // 默认直连
+ }
 ]
