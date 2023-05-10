@@ -15,8 +15,10 @@
     ]
   },
   {
-     "type": "field",
-     "network":"tcp,udp",
-     "outboundTag": "direct" // 默认直连
- }
+    "type": "field",
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "enabled": true
+  }
 ]
