@@ -13,33 +13,15 @@
       "geosite:linkedin",
       "geosite:openai",
       "geosite:bing",
-      "domian:ip.gs",
-    ]
-  },
-  {
-    "type": "field",
-    "outboundTag": "direct",
-    "domain": [
-      "geosite:private",
-      "geosite:apple@cn",
-      "geosite:google@cn",
-      "geosite:tld-cn"
-    ]
-  },
-  {
-    "type": "field",
-    "outboundTag": "direct",
-    "ip": [
-      "geoip:private",
-      "geoip:cn"
-    ],
-    "domain": [
-      "geosite:cn"
+      "geosite:gfw",
+      "domian:ip.gs"
     ]
   },
   {
     "type": "field",
     "port": "0-65535",
-    "outboundTag": "proxy"
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "enabled": true
   }
 ]
