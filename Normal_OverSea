@@ -11,6 +11,7 @@
     "outboundTag": "proxy",
     "domain": [
       "geosite:linkedin",
+      "geosite:google",
       "geosite:gfw"
     ]
   },
