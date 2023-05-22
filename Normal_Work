@@ -14,6 +14,7 @@
       "geosite:openai",
       "geosite:bing",
       "geosite:gfw",
+      "geosite:slack",
       "domian:ip.gs"
     ]
   },
