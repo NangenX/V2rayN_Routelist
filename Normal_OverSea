@@ -11,8 +11,11 @@
     "outboundTag": "proxy",
     "domain": [
       "geosite:linkedin",
+      "geosite:openai",
       "geosite:google",
-      "geosite:gfw"
+      "geosite:tiktok", 
+      "geosite:gfw",
+      "domian:smspva.com" 
     ]
   },
   {
