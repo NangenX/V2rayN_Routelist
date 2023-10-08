@@ -12,6 +12,7 @@
     "domain": [
       "geosite:linkedin",
       "geosite:openai",
+      "geosite:yahoo",
       "geosite:tiktok", 
       "geosite:gfw",
       "domain:smspva.com",
