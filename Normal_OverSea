@@ -13,7 +13,8 @@
       "geosite:linkedin",
       "geosite:openai",
       "geosite:tiktok", 
-      "geosite:gfw"
+      "geosite:gfw",
+      "domain:ip.gs"
     ]
   },
   {
