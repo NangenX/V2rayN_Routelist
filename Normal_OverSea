@@ -14,7 +14,9 @@
       "geosite:openai",
       "geosite:tiktok", 
       "geosite:gfw",
-      "domain:ip.gs"
+      "domain:ip.gs",
+      "domain:bluelinebattery.com",
+      "domain:hepcom.net"
     ]
   },
   {
