@@ -32,5 +32,12 @@
     "domain": [
       "geosite:geolocation-!cn"
     ]
+  },
+  {
+    "type": "field",
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "enabled": true
   }
 ]
