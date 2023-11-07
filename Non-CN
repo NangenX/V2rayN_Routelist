@@ -1,33 +1,34 @@
 [
-    {
-      "type": "field",
-      "outboundTag": "Reject",
-      "domain": ["geosite:category-ads-all"]
-    },
-    {
-      "type": "field",
-      "outboundTag": "Direct",
-      "domain": [
+  {
+    "type": "field",
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ]
+  },
+  {
+    "type": "field",
+    "outboundTag": "proxy",
+    "domain": [
         "geosite:private",
         "geosite:apple-cn",
         "geosite:google-cn",
         "geosite:tld-cn",
         "geosite:category-games@cn"
-      ]
-    },
-    {
-      "type": "field",
-      "outboundTag": "Proxy",
-      "domain": ["geosite:geolocation-!cn"]
-    },
-    {
-      "type": "field",
-      "outboundTag": "Direct",
-      "domain": ["geosite:cn"]
-    },
-    {
-      "type": "field",
-      "outboundTag": "Proxy",
-      "network": "tcp,udp"
-    }
-  ]
+    ]
+  },
+  {
+    "type": "field",
+    "outboundTag": "proxy",
+    "ip": [
+      "geoip:jp"
+    ]
+  },
+  {
+    "type": "field",
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "enabled": true
+  }
+]
