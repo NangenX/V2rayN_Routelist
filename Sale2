@@ -4,13 +4,14 @@
     "outboundTag": "block",
     "domain": [
         "geosite:category-ads-all"
-    ]
+    ],
+     "enabled": false
   },
   {
     "type": "field",
     "outboundTag": "proxy",
     "domain": [
-        "geosite:geolocation-!cn"
+        "geosite:geolocation-!cn",
         "domain:kwcdn.com",
         "domain:temu.com"
     ]
