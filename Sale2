@@ -5,8 +5,8 @@
     "domain": [
       "geosite:category-ads-all"
     ]
-  },
     "enabled": false
+  },
   {
     "type": "field",
     "outboundTag": "proxy",
